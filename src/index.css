@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900");
 
 body {
   margin: 0;
-  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .heading {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h2.heading {
@@ -32,6 +32,24 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.white-container,
+.grey-container {
+  padding-top: 2.5rem;
+  padding-bottom: 1.875rem;
+}
+
+.grey-container {
+  background: #f9f9f9;
+}
+
+.body-header {
+  color: #3b3663;
 }
