@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900");
 
 body {
   margin: 0;
@@ -29,6 +30,7 @@ h1 {
 p {
   font-size: 1.1rem;
   line-height: 29px;
+  font-weight: 500;
 }
 
 code {
@@ -52,4 +54,8 @@ code {
 
 .body-header {
   color: #3b3663;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
 }

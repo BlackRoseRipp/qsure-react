@@ -22,7 +22,7 @@ const Home = () => {
                             comprising of a Hospitalization plan to support out of pocket medical costs.
                         </p>
                         <div className="text-start">
-                            <a className="btn btn-hero" href="#">Learn More</a>
+                            <a className="btn btn-hero montserrat" href="#">Learn More</a>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
             <div className="white-container container">
                 <h2 className="heading body-header fw-semibold text-center" style={{fontSize: '66px'}}>What Is Qsure?</h2>
-                <p className="text-center w-75 mx-auto" style={{fontSize: '1.5rem'}}>
+                <p className="text-center w-75 mx-auto fw-normal" style={{fontSize: '1.5rem'}}>
                     Qsure is a supplementary Benefits Provider that provides employees unlimited access to 
                     tools and resources to promote a healthier lifestyle at no out-of-pocket cost to the employee 
                     or the employer.
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="grey-container">
                 <div className="container">
                     <h2 className="heading body-header fw-bold text-center">Employee Benefits</h2>
-                    <p className="text-center w-75 mx-auto" style={{fontSize: '1.5rem'}}>
+                    <p className="text-center w-75 mx-auto fw-normal" style={{fontSize: '1.5rem'}}>
                         At Qsure we provide your employees with additional health benefits with additional health 
                         benefits beyond primary health care plans.
                     </p>
@@ -57,8 +57,8 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <img src='assets/img/2981676.png' className='icon-png' />
-                                    <h5 className="card-title fw-semibold">Initial Health Screening</h5>
-                                    <p className="card-subtitle mt-2 text-muted">
+                                    <h5 className="card-title fw-semibold montserrat">Initial Health Screening</h5>
+                                    <p className="card-subtitle mt-2 text-muted fw-normal">
                                         Our initial health screening includes a self assessment, biometric, and DNA 
                                         Screening all of which can be tracked online.
                                     </p>
@@ -69,8 +69,8 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <img src='assets/img/2986566.png' className='icon-png' />
-                                    <h5 className="card-title fw-semibold">Multi-Channel Coaching</h5>
-                                    <p className="card-subtitle mt-2 text-muted">
+                                    <h5 className="card-title fw-semibold montserrat">Multi-Channel Coaching</h5>
+                                    <p className="card-subtitle mt-2 text-muted fw-normal">
                                         Our multi-channel tracking is not only web based but also has an option to speak 
                                         to coaches over the phone. There is 24/7 access and no copay.
                                     </p>
@@ -81,8 +81,8 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <img src='assets/img/1897418.png' className='icon-png' />
-                                    <h5 className="card-title fw-semibold">Wellness Coaching</h5>
-                                    <p className="card-subtitle mt-2 text-muted">
+                                    <h5 className="card-title fw-semibold montserrat">Wellness Coaching</h5>
+                                    <p className="card-subtitle mt-2 text-muted fw-normal">
                                         Our licensed health coaches will diligently assist you in tasks as simple as 
                                         nutrition information as well more complex mental health issues such as stress.
                                     </p>
@@ -93,8 +93,8 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <img src='assets/img/2981669 (1).png' className='icon-png' />
-                                    <h5 className="card-title fw-semibold">Confidence Support Assitance</h5>
-                                    <p className="card-subtitle mt-2 text-muted">
+                                    <h5 className="card-title fw-semibold montserrat">Confidence Support Assitance</h5>
+                                    <p className="card-subtitle mt-2 text-muted fw-normal">
                                         Our health professionals also provide services that aid in supporting you 
                                         confidence in your work and in your self.
                                     </p>
@@ -105,8 +105,8 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <img src='assets/img/1101652.png' className='icon-png' />
-                                    <h5 className="card-title fw-semibold">Seven Claim Payment Activities</h5>
-                                    <p className="card-subtitle mt-2 text-muted">
+                                    <h5 className="card-title fw-semibold montserrat">Seven Claim Payment Activities</h5>
+                                    <p className="card-subtitle mt-2 text-muted fw-normal">
                                         Activities included in our plan are telemedicine, DNA Screening, Health Risk 
                                         Assessment, Online Health Coaching, Telephonic Health Coaching, Online Wellness 
                                         Coaching and Biometric Screening
@@ -118,8 +118,8 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <img src='assets/img/970267.png' className='icon-png' />
-                                    <h5 className="card-title fw-semibold">Preventative Health Care Benefits</h5>
-                                    <p className="card-subtitle mt-2 text-muted">
+                                    <h5 className="card-title fw-semibold montserrat">Preventative Health Care Benefits</h5>
+                                    <p className="card-subtitle mt-2 text-muted fw-normal">
                                         Qsure provides a plethora of benefits including increased take home pay as well 
                                         as 24/7 telemedicine.
                                     </p>
