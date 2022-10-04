@@ -1,5 +1,6 @@
 import Lottie from "lottie-react";
 import React from 'react';
+import searchAnimation from '../Animations/75419-search.json';
 import dashboardManAnimation from '../Animations/76498-data-analysis-animation.json';
 import exerciseAnimation from '../Animations/78268-workout.json';
 import './Dashboard.css';
@@ -81,7 +82,7 @@ const Dashboard = () => {
                             <Lottie animationData={exerciseAnimation} loop={true} autoPlay={true} />
                         </div>
                         <div className='col-lg-6'>
-                            <Lottie animationData={exerciseAnimation} loop={true} autoPlay={true} />
+                            <Lottie animationData={searchAnimation} loop={true} autoPlay={true} />
                         </div>
                         <div className='col-lg-6 d-flex flex-column justify-content-center'>
                             <img src='assets/img/1217057.png' className='download-png' />

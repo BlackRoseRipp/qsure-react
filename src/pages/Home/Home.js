@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from 'react-player';
+import VideoModal from "../Videos/VideoModal";
 import './Home.css';
 
 const Home = () => {
@@ -42,6 +43,12 @@ const Home = () => {
                 <div className="d-flex justify-content-center mt-5">
                     <ReactPlayer url='https://www.youtube.com/watch?v=urE-09RcpNM'/>
                 </div>
+                {/* <div className="d-flex justify-content-center mt-5">
+                    <VideoModal 
+                        src='https://www.youtube.com/watch?v=urE-09RcpNM'
+                        bg='assets/img/videos/mm.jpg'
+                    />
+                </div> */}
             </div>
             <div className="grey-container">
                 <div className="container">

@@ -30,7 +30,7 @@ const NavBar = () => {
                             <a className='nav-link active visually-hidden' aria-current='page' href='/'>Home</a>
                             <a className='nav-link' href='/plans'>Plans</a>
                             <a className='nav-link' href='/personal-health-dashboard'>Dashboard</a>
-                            <a className='nav-link' href='/videos'>Videos</a>
+                            <a className='nav-link visually-hidden' href='/videos'>Videos</a>
                             <a className='nav-link' href='/contact-us'>Contact Us</a>
                             <a className='nav-link' href='https://qsure.ushealthcenter.com/Activate'>Login</a>
                         </div>

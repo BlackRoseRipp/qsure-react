@@ -4,9 +4,11 @@
 
 .main-footer {
   background-color: transparent;
-  background: linear-gradient(270deg,
+  background: linear-gradient(
+      270deg,
       rgba(0, 60, 98, 0.89),
-      rgba(0, 60, 98, 0.89)),
+      rgba(0, 60, 98, 0.89)
+    ),
     url("../../../public/assets/img/footer-bg.jpg");
   width: 100%;
   background-position: center center;
@@ -35,14 +37,14 @@
   color: #fff;
 }
 
-.contact-link:hover {
-  color: #DADADA;
+.footer-link:hover {
+  color: #dadada;
 }
 
-.contact-link {
+.footer-link {
   color: white;
   text-decoration: none;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   transition: all 220ms ease-in-out;
   font-weight: 600;
   font-size: 15px;
@@ -50,7 +52,7 @@
 
 .btn-footer {
   background-color: transparent;
-  background-image: linear-gradient(270deg, #2A86C3 50%, #3FBBE6 100%);
+  background-image: linear-gradient(270deg, #2a86c3 50%, #3fbbe6 100%);
   font-size: 20px;
   font-weight: 500;
   color: #fff;
@@ -66,22 +68,22 @@
 .btn-footer:focus,
 .btn-footer:active {
   background-color: transparent;
-  background-image: linear-gradient(270deg, #2A86C3 50%, #3FBBE6 100%);
+  background-image: linear-gradient(270deg, #2a86c3 50%, #3fbbe6 100%);
   color: #fff;
   border: 0;
 }
 
 .bottom-footer {
   background-color: transparent;
-  background-image: linear-gradient(270deg, #2A86C3 50%, #3FBBE6 100%);
-  padding: .5rem 0;
+  background-image: linear-gradient(270deg, #2a86c3 50%, #3fbbe6 100%);
+  padding: 0.5rem 0;
 }
 
 .bottom-footer-text {
   text-decoration: none;
   color: white;
   font-size: 1rem;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .bottom-footer-text:hover,

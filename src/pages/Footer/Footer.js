@@ -26,11 +26,11 @@ const Footer = () => {
                                     Useful Links
                                 </h5>
                                 <div className='d-flex flex-column'>
-                                    <a className='contact-link' href='/plans'>Plans</a>
-                                    <a className='contact-link' href='/personal-health-dashboard'>Dashboard</a>
-                                    <a className='contact-link' href='/videos'>Videos</a>
-                                    <a className='contact-link' href='/contact-us'>Contact Us</a>
-                                    <a className='contact-link' href='https://qsure.ushealthcenter.com/Activate'>Login</a>
+                                    <a className='footer-link' href='/plans'>Plans</a>
+                                    <a className='footer-link' href='/personal-health-dashboard'>Dashboard</a>
+                                    <a className='footer-link' href='/videos'>Videos</a>
+                                    <a className='footer-link' href='/contact-us'>Contact Us</a>
+                                    <a className='footer-link' href='https://qsure.ushealthcenter.com/Activate'>Login</a>
                                 </div>
                             </div>
                         </div>
@@ -40,13 +40,13 @@ const Footer = () => {
                                     Contact Us
                                 </h5>
                                 <div className='d-flex flex-column'>
-                                    <a className="contact-link" href="tel:888-778-7350">
+                                    <a className="footer-link" href="tel:888-778-7350">
                                         (888) 778-7350
                                     </a>
-                                    <a className="contact-link" href="mailto:info@qsure.com">
+                                    <a className="footer-link" href="mailto:info@qsure.com">
                                         info@qsure.com
                                     </a>
-                                    <a className="contact-link" href="https://www.google.com/maps/place/143+W+72nd+St,+New+York,+NY+10023/@40.7782211,-73.9824139,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2588a351f00ed:0xa7f97add245c9e79!8m2!3d40.7782211!4d-73.9802252!16s%2Fg%2F11bw3_tfp3?hl=en">
+                                    <a className="footer-link" href="#">
                                         276 5th Avenue Suite 704-3162<br></br>New York, New York 10001
                                     </a>
                                 </div>

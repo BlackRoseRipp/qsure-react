@@ -1,0 +1,14 @@
+.videos-banner {
+  background: linear-gradient(
+      180deg,
+      rgba(57, 181, 74, 0.9),
+      rgba(11, 107, 138, 0.9)
+    ),
+    url("../../../public/assets/img/footer-bg.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+  border-radius: 100%/0 0 50% 50%;
+}
