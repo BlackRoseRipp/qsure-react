@@ -13,7 +13,7 @@ const Contact = () => {
                 <div className='container'>
                     <div className='contact-form'>
                         <div className='row w-100 mx-0'>
-                            <div className='col-5 info-column'>
+                            <div className='col-lg-5 info-column order-lg-1 order-5'>
                                 <div className='d-flex align-items-start my-4'>
                                     <FaPhoneAlt className='contact-icon'/>
                                     <p className='text-white fw-light ms-3' style={{fontSize: '21px'}}>
@@ -41,7 +41,7 @@ const Contact = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className='col-7 form-container'>
+                            <div className='col-lg-7 form-container order-lg-5 order-1'>
                                 <h2 className='heading text-center' style={{fontSize: '59px', fontWeight: '500'}}>Contact Us</h2>
                                 <input 
                                     type='name'

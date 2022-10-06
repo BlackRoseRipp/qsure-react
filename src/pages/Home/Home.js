@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <div className="home-hero-container">
-                <div className="row container mx-auto">
+                <div className="row container mx-auto g-4">
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
                         <h2 className="text-white fw-bold">Welcome to Qsure</h2>
                         <h1 className="heading text-white fw-bold">A Preventative Healthcare Platform</h1>
@@ -22,7 +22,7 @@ const Home = () => {
                             Qsure is the answer. It’s a three step preventative healthcare management platform 
                             comprising of a Hospitalization plan to support out of pocket medical costs.
                         </p>
-                        <div className="text-start">
+                        <div className="text-lg-start text-center">
                             <a className="btn btn-hero montserrat" href="#">Learn More</a>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ const Home = () => {
                         <div className='col-lg-6'>
                             <img src='assets/img/features-thhhumb-1.png' className="w-100 px-4" />
                         </div>
-                        <div className="col-lg-6 pe-5">
+                        <div className="col-lg-6 pe-lg-5 pe-0 py-lg-0 py-4 text-center text-lg-start">
                             <h3 className="body-header fw-bold text-white" style={{fontSize: '2.75rem'}}>Managing Your Health Just Got Easier.</h3>
                             <p className='fw-normal text-white pe-4' style={{fontSize: '19px'}}>
                                 Employees can manage their tasks and beneﬁts on the employee Personal Health DashboardTM 
@@ -216,7 +216,7 @@ const Home = () => {
                                 health optimization progress by assessment of risk profile, a monthly action plan with 
                                 activities backed by health reminders and a resolution center.
                             </p>
-                            <div className="w-50 text-center">
+                            <div className="w-50 text-center mx-lg-0 mx-auto">
                                 <a href='#'>
                                     <img src='assets/img/app-store.png' className='img-link' />
                                 </a>

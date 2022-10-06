@@ -1,9 +1,7 @@
 .plans-banner {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(57, 181, 74, 0.9),
-      rgba(11, 107, 138, 0.9)
-    ),
+      rgba(11, 107, 138, 0.9)),
     url("../../../public/assets/img/footer-bg.jpg");
   width: 100%;
   background-position: center;
@@ -96,4 +94,10 @@ div.hr {
   padding-top: 3px;
   margin: 0 0.45rem;
   background: rgba(255, 255, 255, 0.15);
+}
+
+@media screen and (max-width: 991px) {
+  .plans-banner {
+    border-radius: 0;
+  }
 }

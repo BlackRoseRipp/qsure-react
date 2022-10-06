@@ -1,9 +1,7 @@
 .contact-banner {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(57, 181, 74, 0.9),
-      rgba(11, 107, 138, 0.9)
-    ),
+      rgba(11, 107, 138, 0.9)),
     url("../../../public/assets/img/footer-bg.jpg");
   width: 100%;
   background-position: center;
@@ -14,11 +12,9 @@
 }
 
 .info-column {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(27, 129, 211, 0.9),
-      rgba(27, 129, 211, 0.9)
-    ),
+      rgba(27, 129, 211, 0.9)),
     url("../../../public/assets/img/footer-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -87,4 +83,10 @@
 .btn-contact-submit:focus {
   color: black;
   background: #ffcb05 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .contact-banner {
+    border-radius: 0;
+  }
 }

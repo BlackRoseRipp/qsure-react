@@ -69,7 +69,7 @@ const Dashboard = () => {
             <div className='white-container'>
                 <div className='container'>
                     <div className='row mx-0 w-100 g-5'>
-                        <div className='col-lg-6 d-flex flex-column justify-content-center'>
+                        <div className='col-lg-6 d-flex flex-column justify-content-center order-first'>
                             <img src='assets/img/1217057.png' className='download-png' />
                             <h2 className='heading body-header fw-bold' style={{fontSize: '41px'}}>
                                 Complete Your Health Optimization Activities Right On Your Mobile App!
@@ -78,13 +78,13 @@ const Dashboard = () => {
                                 <a href='#' className='btn btn-download heading'>Download Now</a>
                             </div>
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 order-1'>
                             <Lottie animationData={exerciseAnimation} loop={true} autoPlay={true} />
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 order-3 order-lg-2'>
                             <Lottie animationData={searchAnimation} loop={true} autoPlay={true} />
                         </div>
-                        <div className='col-lg-6 d-flex flex-column justify-content-center'>
+                        <div className='col-lg-6 order-2 order-lg-3 d-flex flex-column justify-content-center'>
                             <img src='assets/img/1217057.png' className='download-png' />
                             <h2 className='heading body-header fw-bold' style={{fontSize: '41px'}}>
                                 Search "Personal Health Dashboard" To Download The App Now
@@ -93,7 +93,7 @@ const Dashboard = () => {
                                 <a href='#' className='btn btn-download heading'>Download Now</a>
                             </div>
                         </div>
-                        <div className='col-lg-6 d-flex flex-column justify-content-center'>
+                        <div className='col-lg-6 d-flex flex-column justify-content-center order-4'>
                             <h2 className='heading body-header fw-bold' style={{fontSize: '41px'}}>
                                 Other Dashboard Uses
                             </h2>
@@ -111,7 +111,7 @@ const Dashboard = () => {
                                 <a href='#' className='btn btn-download heading'>Download Now</a>
                             </div>
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 order-last'>
                             <Lottie animationData={dashboardManAnimation} loop={true} autoPlay={true} />
                         </div>
                     </div>

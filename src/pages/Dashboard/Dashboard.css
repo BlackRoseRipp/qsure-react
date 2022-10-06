@@ -1,9 +1,7 @@
 .dashboard-banner {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(57, 181, 74, 0.9),
-      rgba(11, 107, 138, 0.9)
-    ),
+      rgba(11, 107, 138, 0.9)),
     url("../../../public/assets/img/footer-bg.jpg");
   width: 100%;
   background-position: center;
@@ -60,4 +58,10 @@
 .btn-download:focus {
   color: white !important;
   background: #097935 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .dashboard-banner {
+    border-radius: 0;
+  }
 }

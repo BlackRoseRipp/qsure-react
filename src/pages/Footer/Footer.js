@@ -1,12 +1,11 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
     return (
         <footer className="footer-clean">
             <div className='main-footer'>
-                <div className='container-lg main-footer-container m-4'>
+                <div className='container-lg main-footer-container m-lg-4 m-0'>
                     <div className='row' id='mainRow'>
                         <div className='col-lg-4 text-start'>
                             <a href="/" style={{ width: '10%'}}>
@@ -21,7 +20,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='col-lg-4'>
-                            <div className='ms-5 mt-4'>
+                            <div className='ms-lg-5 ms-0 mt-4 text-center text-lg-start'>
                                 <h5 className='footer-header heading'>
                                     Useful Links
                                 </h5>
@@ -35,7 +34,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='col-lg-4 footer-contact'>
-                            <div className='ms-5 mt-4'>
+                            <div className='ms-lg-5 ms-0 mt-4'>
                                 <h5 className='footer-header heading'>
                                     Contact Us
                                 </h5>
